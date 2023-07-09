@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+
+body{
+    background-color: #D7D4D4;
+}
+
+
+header{
+    background-color: #CACACA;
+    height: 93px;
+    box-shadow: 0px 0px 3px 0px ;
+}
+
+.menu{
+    float: left;
+}
+
+.titulo{
+    font-size: 17px;
+    text-align: center ;
+    padding: 36px;
+    color: #3c3939;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.estado{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#locked{
+    width: 32px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+
+#foto{
+    padding-top: 13px;
+    padding-bottom: 36px;
+
+}
+
+.nome{
+    padding-bottom: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+#conta{
+    padding-bottom: 13px;
+    padding-right: 14px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+#next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 135px;
+}
+
+#reais{
+    padding-top: 15px;
+}
+
+#listras{
+    padding-top: 23px;
+    padding-left: 18px;
+}
+
+#unlocked{
+    width: 32px;
+    height: 30px;
+    margin-bottom: 12px;
+}
